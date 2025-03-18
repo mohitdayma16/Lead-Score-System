@@ -1,0 +1,99 @@
+/* Card.css */
+
+/* Card Container */
+.card {
+  background-color: #ffffff; /* White background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  overflow: hidden; /* Prevents overflow of child elements */
+  transition: transform 0.3s; /* Smooth scaling effect */
+  margin: 20px; /* Space around each card */
+  max-width: 300px; /* Maximum width for the card */
+  text-align: center; /* Center text */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Image Styles */
+.image {
+  width: 100%; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+  border-bottom: 2px solid #4CAF50; /* Green border below image */
+}
+
+/* Parlour Details */
+.parlour-details {
+  padding: 15px; /* Padding around details */
+}
+
+.parlour-price {
+  color: #e74c3c; /* Red color for price */
+  font-size: 1.5em; /* Larger font size */
+  margin: 0; /* Remove default margin */
+}
+
+.parlour-name {
+  color: #333; /* Dark color for name */
+  font-size: 1.2em; /* Slightly larger font size */
+  margin: 5px 0; /* Margin for spacing */
+}
+
+/* Description Styles */
+.description {
+  padding: 15px; /* Padding around description */
+  color: #555; /* Gray color for description text */
+  font-size: 0.9em; /* Smaller font size */
+}
+
+.read-more {
+  color: #4CAF50; /* Green color for read more link */
+  cursor: pointer; /* Pointer cursor on hover */
+  text-decoration: underline; /* Underline for emphasis */
+}
+
+/* Button Styles */
+.red-bttn {
+  background-color: #e74c3c; /* Red background */
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 10px 15px; /* Padding for button */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 1em; /* Font size */
+  margin: 15px 0; /* Margin for spacing */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.red-bttn:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+.interested-bttn {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.interested-bttn.active {
+  background-color: #45a049; /* Darker green */
+}
+.cart-bttn {
+  background-color: #28a745; /* Green color */
+  color: white;
+  font-size: 16px; /* Increased font size */
+  padding: 12px 20px; /* Bigger padding */
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 70%; /* Full width */
+  margin-top: 10px; /* Space from other buttons */
+}
+
+.cart-bttn:hover {
+  background-color: #218838; /* Darker green on hover */
+}
